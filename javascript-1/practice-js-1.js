@@ -32,7 +32,7 @@ return(num1+num2)
 */
 
 function trueOrFalse(data){
-  return data=true
+  
   
 };
 //////////////////PROBLEM 6////////////////////
@@ -43,7 +43,7 @@ function trueOrFalse(data){
   If the number is even, return the string: 'the number is even'.
 */
 
-
+function oddChecker(){}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -52,7 +52,7 @@ function trueOrFalse(data){
   "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 */
 
-
+function iLove(){}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -114,7 +114,7 @@ let me = {
 */
 
 function bigOrSmall(array){
-  let answers = [
+  
 };
 
 //////////////////PROBLEM 13////////////////////
@@ -171,7 +171,9 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
   Invoke the callback passing the first item in the array as an argument.
 */
 
-//CODE HERE
+function firstItem(){
+
+}
 
 //////////////////PROBLEM 16////////////////////
 /* 
@@ -181,7 +183,7 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
   Otherwise, invoke the callback passing in false.
 */
 
-//CODE HERE
+function isItBob(){}
 
 //////////////////PROBLEM 17////////////////////
 /*
@@ -190,7 +192,7 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
   Then invoke the callback, passing in the doubled array.
 */
 
-//CODE HERE
+function giveMeDoubles(){}
 
 //////////////////PROBLEM 18////////////////////
 /*
@@ -217,4 +219,4 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
   }
 */
 
-//CODE HERE
+function carFactory(){}
