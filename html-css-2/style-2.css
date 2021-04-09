@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.header {
+    background-color:  turquoise;
+    height: 100px;
+    width: 100% ;
+}
+
+.container-one {
+    margin: 10px;
+    width: 100%;
+    border: 1px dashed black;
+    padding: 100px;
+}
+.container-two {
+    margin: 10px;
+    width: 100%;
+    border: 1px dashed black;
+    padding: 100px;
+}
+
+.container-three {
+    margin: 10px;
+    width: 100%;
+    border: 1px dashed black;
+    padding: 100px;   
+}
+.purp-rec {
+    background-color: purple;
+    height: 100px;
+    width: 200px;
+    border: 3px solid red;
+    display: inline-block;
+}
+.blue-square {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 12px ;
+    margin-right: 12px;
+}
+.pink-square {
+    height: 200px;
+    width: 200px;
+    background-color: palevioletred;
+    border: 1px solid black;
+    display: inline-block;
+}
+.circle-one {
+height: 75px;
+width: 75px;
+border-radius: 50%;
+border: 1px solid black;
+}
+.circle-two {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.circle-three {
+    height: 125px;
+    width: 125px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.yellow-square {
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+}
+.green-circle {
+    height: 75%;
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: green;
+}
+.red-square {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    
+}
+.blue-circle {
+width: 75%;
+height:75%;
+background-color: blue;
+border-radius: 50%;
+}

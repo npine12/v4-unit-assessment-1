@@ -1,17 +1,17 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
-//CODE HERE 
+let myName = 'Noe' 
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
-//CODE HERE
+let faveNum = 1
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
-//CODE HERE
+let lovesCode = false
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -19,7 +19,9 @@
   The function should return the sum of the two parameters.
 */
 
-//CODE HERE
+function sum(num1, num2){
+return(num1+num2)
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -29,8 +31,10 @@
   If 'data' is a falsy value, return a false boolean.
 */
 
-//CODE HERE
-
+function trueOrFalse(data){
+  return data=true
+  
+};
 //////////////////PROBLEM 6////////////////////
 /*
   Create a function called 'oddChecker' that takes in one parameter, 'num'. 
@@ -39,7 +43,7 @@
   If the number is even, return the string: 'the number is even'.
 */
 
-//CODE HERE
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -48,7 +52,7 @@
   "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 */
 
-//CODE HERE
+
 
 
 //////////////////PROBLEM 8////////////////////
@@ -56,7 +60,7 @@
 
 const faveColors = ['red', 'green', 'black']
 
-//CODE HERE
+const copycolorCopy = faveColors.slice;
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
@@ -87,7 +91,14 @@ const numbers = [1, 2, 3, 4, 5]
   For example: 'Hello! My name is Joseph and I live in Utah"
 */
 
-//CODE HERE
+let me = {
+  firstName:'Noe',
+  state: 'Utah',
+  age: 27 ,
+  greeter: function(){
+    console.log('Hello! My name is Noe and I live in Utah')
+  }
+};
 
 //////////////////PROBLEM 12////////////////////
 /* 
@@ -102,7 +113,9 @@ const numbers = [1, 2, 3, 4, 5]
   Return the answers array inside of the function.
 */
 
-// CODE HERE
+function bigOrSmall(array){
+  let answers = [
+};
 
 //////////////////PROBLEM 13////////////////////
 /* 
